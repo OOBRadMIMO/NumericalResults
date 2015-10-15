@@ -1,3 +1,16 @@
+% Title : Plot PSD's
+% File  : plot_psds.m
+% -------------------------------------------------------------------------
+% Description :
+% This script plots the Power spectral densities for a system with 10 users
+% and 100 antennas in a Rayleigh fading channel, as shown in figure 1.
+% ------------------------------------------------------------------------- 
+% Revisions   :
+%   Date       Version  Author  Description
+%   15-Oct-15  1.0      chrism  created the file
+% -------------------------------------------------------------------------                            
+%   Author: Christopher Mollen   
+% ------------------------------------------------------------------------- 
 clear
 
 nr_users = 10;

@@ -1,3 +1,16 @@
+% Title : Plots the eigenvalue CDF
+% File  : plot_eigenvalue_dist.m
+% -------------------------------------------------------------------------
+% Description :
+% This script plots the eigenvalue distribution as shown in figure 3.
+% ------------------------------------------------------------------------- 
+% Revisions   :
+%   Date       Version  Author  Description
+%   15-Oct-15  1.0      chrism  created the file
+% -------------------------------------------------------------------------                            
+%   Author: Christopher Mollen   
+% ------------------------------------------------------------------------- 
+
 clear
 
 nr_users = 1;

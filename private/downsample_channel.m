@@ -1,3 +1,16 @@
+% Title : Downsample of the channel
+% File  : cownsample_channel.m
+% -------------------------------------------------------------------------
+% Description :
+% This script performs down-sampling of the channel.
+% ------------------------------------------------------------------------- 
+% Revisions   :
+%   Date       Version  Author  Description
+%   15-Oct-15  1.0      chrism  created the file
+% -------------------------------------------------------------------------                            
+%   Author: Christopher Mollen   
+% ------------------------------------------------------------------------- 
+
 function [ds_channel, delay] = downsample_channel(channel, pulse, oversamp_factor)
 [nr_users, nr_antennae, nr_taps] = size(channel);
 nr_samples = 2 * length(pulse) - 1;

@@ -1,9 +1,21 @@
+% Title : Computes the PSD matrix
+% File  : compute_psd_matrix.m
+% -------------------------------------------------------------------------
+% Description :
+% Computes the oversampled power spectral density
+% of the amplified transmit signal of a MIMO system that uses maximum-ratio
+% precoding over a frequency-selective channel specified by CHANNEL by pulse
+% shape filtering with PULSE.  OVERSAMPLING_FACTOR specifies the time-domain
+% sampling rate i units of the baud-rate.
+% ------------------------------------------------------------------------- 
+% Revisions   :
+%   Date       Version  Author  Description
+%   15-Oct-15  1.0      chrism  created the file
+% -------------------------------------------------------------------------                            
+%   Author: Christopher Mollen   
+% ------------------------------------------------------------------------- 
+
 function [ psd ] = compute_psd_matrix( channel, pulse, oversamp_factor )
-%COMPUTE_PSD_MATRIX computes the oversampled power spectral density
-%of the amplified transmit signal of a MIMO system that uses maximum-ratio
-%precoding over a frequency-selective channel specified by CHANNEL by pulse
-%shape filtering with PULSE.  OVERSAMPLING_FACTOR specifies the time-domain
-%sampling rate i units of the baudrate.
 
 [nr_users, nr_antennae, nr_taps] = size(channel);
 

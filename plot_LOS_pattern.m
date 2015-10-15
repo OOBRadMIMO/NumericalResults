@@ -1,3 +1,18 @@
+% Title : Plots the LOS radiation pattern
+% File  : plot_LOS_pattern.m
+% -------------------------------------------------------------------------
+% Description :
+% This script plots The adjacent-band power in different directions in a
+% line-of-sight channel with 100 antennas and 10 users.
+% The vertical lines indicate the directions of the users.
+% ------------------------------------------------------------------------- 
+% Revisions   :
+%   Date       Version  Author  Description
+%   15-Oct-15  1.0      chrism  created the file
+% -------------------------------------------------------------------------                            
+%   Author: Christopher Mollen   
+% ------------------------------------------------------------------------- 
+
 clear;
 
 nr_users = 10;

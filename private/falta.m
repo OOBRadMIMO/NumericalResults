@@ -1,3 +1,16 @@
+% Title : Convolution
+% File  : falta.m
+% -------------------------------------------------------------------------
+% Description :
+% Convolution.
+% ------------------------------------------------------------------------- 
+% Revisions   :
+%   Date       Version  Author  Description
+%   15-Oct-15  1.0      chrism  created the file
+% -------------------------------------------------------------------------                            
+%   Author: Christopher Mollen   
+% ------------------------------------------------------------------------- 
+
 function faltning = falta(sig1, sig2)
 
 length1 = length(sig1);
